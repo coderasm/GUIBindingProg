@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:WPFBindingProg"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+  <Grid>
+    <TextBox Text="{Binding Text}" HorizontalAlignment="Left" Height="23" Margin="291,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+    <Button Content="OK" Click="OpenDialog" HorizontalAlignment="Left" Margin="291,196,0,0" VerticalAlignment="Top" Width="75"/>
+    <Button Content="Clear" Click="Clear" HorizontalAlignment="Left" Margin="386,196,0,0" VerticalAlignment="Top" Width="75"/>
+  </Grid>
 </Window>
